@@ -70,3 +70,5 @@ crashlytics-build.properties
 /Assets/StreamingAssets/aa.meta
 /Assets/StreamingAssets/aa/*
 
+# TextMesh Pro Assets folder
+/Assets/TextMesh Pro
