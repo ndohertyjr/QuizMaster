@@ -12,4 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab3060e30cb9f254788c935134256c7b, type: 3}
   m_Name: Question1
   m_EditorClassIdentifier: 
-  question: Where does Santa Live?
+  question: Where does Santa live?
+  answers:
+  - The South Pole
+  - Your Mom's House
+  - The North Pole
+  - San Diego, CA
+  answerIndex: 2

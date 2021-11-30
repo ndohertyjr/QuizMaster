@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   question: What does Santa eat?
   answers:
-  - 
-  - 
-  - 
-  - 
-  answerIndex: 0
+  - Blueberries
+  - Cookies
+  - Sandwiches
+  - Bananas
+  answerIndex: 1

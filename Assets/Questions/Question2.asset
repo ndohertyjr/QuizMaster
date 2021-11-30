@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   question: What color is Santa's jacket?
   answers:
-  - 
-  - 
-  - 
-  - 
-  answerIndex: 0
+  - Blue
+  - Green
+  - Red
+  - Yellow
+  answerIndex: 2

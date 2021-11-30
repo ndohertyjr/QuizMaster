@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   question: How does Santa's sleigh fly?
   answers:
-  - 
-  - 
-  - 
-  - 
-  answerIndex: 0
+  - Ladybugs
+  - Pigeons
+  - Camels With Wings
+  - Reindeer
+  answerIndex: 3

@@ -8,20 +8,39 @@ public class Quiz : MonoBehaviour
 {
 
     //Question and text elements
+    [Header("Questions")]
     [SerializeField] TextMeshProUGUI questionText;
     [SerializeField] QuestionSO question;
+    [Header("Answers")]
     [SerializeField] GameObject[] answerButtons;
+    int correctAnswerIndex;
+    bool hasAnsweredEarly;
+    [Header("Buttons")]
     [SerializeField] Sprite defaultAnswerSprite;
     [SerializeField] Sprite correctAnswerSprite;
+    [Header("Timer")]
+    [SerializeField] Image timerImage;
+    Timer timer;
 
-    int correctAnswerIndex;
 
     
     void Start()
     {
         GetNextQuestion();
+        timer = FindObjectOfType<Timer>();
        
 
+    }
+
+    void Update() 
+    {
+        timerImage.fillAmount = timer.fillFraction;
+        if (timer.loadNextQuestion == true)
+        {
+            GetNextQuestion();
+            timer.loadNextQuestion = false;
+        }
+        
     }
 
     
@@ -44,6 +63,7 @@ public class Quiz : MonoBehaviour
             buttonImage.sprite = correctAnswerSprite;  
         }
         SetButtonState(false);
+        timer.CancelTimer();
     }
 
     

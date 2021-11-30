@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   question: Which is one of Santa's reindeer?
   answers:
-  - 
-  - 
-  - 
-  - 
+  - Dancer
+  - Steve
+  - Buck
+  - Liz
   answerIndex: 0
